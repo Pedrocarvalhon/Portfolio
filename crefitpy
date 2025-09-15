@@ -1,0 +1,254 @@
+!doctype html>
+<html lang="pt-BR"> 
+<head>
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width,initial-scale=1"> 
+  <title>Portfólio — Pedro Henrique Carvalho Turibio</title> 
+
+  <!-- Fonte do Google (Poppins) -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Ícones do Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"> 
+
+  <style>
+    /* Reset básico */
+    * { margin: 0; padd<ing: 0; box-sizing: border-box; }
+
+    body {
+      font-family: "Poppins", sans-serif;
+      background: #f5f7fb;
+      color: #0a0a0a;
+      line-height: 1.6;
+    }
+
+    .container {         
+      max-width: 1300px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    /* Cabeçalho com foto */
+    header {
+      text-align: center;
+      padding: 40px 0 20px;
+    }
+
+    header img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      margin-bottom: 15px;
+    }
+
+    /* QUADRADO AZUL (título principal) */
+    .titulo-box {
+      background-color: #2563eb; /* azul */
+      color: white;
+      text-align: center;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+    }
+
+    .titulo-box h1 {
+      font-size: 28px;
+      font-weight: 600;
+    }
+
+    .titulo-box p {
+      font-size: 16px;
+    }
+
+    /* QUADRADOS BRANCOS (seções de conteúdo) */
+    .section-box {
+      background-color: white;
+      color: #333;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .section-box h2 {
+      font-weight: 600;
+      margin-bottom: 15px;
+      color: #2563eb;
+      border-left: 4px solid #2563eb;
+      padding-left: 8px;
+    }
+
+    ul { list-style: none; padding: 0; }
+    ul li { margin: 8px 0; font-size: 16px; }
+
+    /* Projetos (sem quadrado extra, estilo de cards) */
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+    }
+
+    .card h3 { margin-bottom: 10px; font-size: 18px; }
+    .card p { color: #555; font-size: 15px; }
+
+    /* Contato (sem quadrado extra) */
+    .contact { text-align: center; }
+    .contact-buttons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 15px;
+    }
+
+    .contact a {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 10px 18px;
+      border-radius: 8px;
+      text-decoration: none;
+      background: #2563eb;
+      color: #fff;
+      font-size: 15px;
+      transition: background 0.3s;
+    }
+
+    .contact a:hover { background: #1e4fcc; }
+
+    /* Rodapé */
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      font-size: 14px;
+      color: #67636d;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <!-- Cabeçalho -->
+    <header>
+      <img src="perfil.jpg" alt="Minha foto de perfil">
+    </header>
+
+    <!-- Quadrado azul (título principal) -->
+    <div class="titulo-box">
+      <h1>Pedro Henrique Carvalho Turibio</h1>
+      <p>Estudante de Engenharia de Software</p>
+    </div>
+
+    <!-- Sobre mim -->
+    <div class="section-box">
+      <h2>Sobre mim</h2>
+      <p>Meu objetivo é atuar na área de desenvolvimento de software ou suporte técnico, aplicando meus conhecimentos em programação e resolução de problemas.</p>
+    </div>
+
+    <!-- Formação -->
+    <div class="section-box">
+      <h2>Formação Acadêmica</h2>
+      <ul>
+        <li>🎓 Bacharelado em Engenharia de Software — Em andamento (4º período)</li>
+      </ul>
+    </div>
+
+    <!-- Cursos -->
+    <div class="section-box">
+      <h2>Cursos Complementares</h2>
+      <ul>
+        <li>📘 Informática Básica</li>
+        <li>💻 Informática Avançada</li>
+        <li>⚙️ Lógica de Programação</li>
+        <li>🌐 HTML e CSS</li>
+        <li>🐍 Python</li>
+        <li>📄 Word</li>
+        <li>📊 Excel Avançado</li>
+        <li>📈 Power BI</li>
+        <li>🖥️ Operador de caixa</li>
+      </ul>
+    </div>
+
+    <!-- Experiência -->
+    <div class="section-box">
+      <h2>Experiência Profissional</h2>
+      <ul>
+        <li><strong>Instrutor de Informática</strong> — Dimensão Cursos LTDA, Palmas-TO (4 anos)</li>
+        <li>Experiência em criar protótipos de aplicativos</li>
+        <li>Experiência prática com Python, HTML e CSS</li>
+        <li>Experiência com Power BI</li>
+        <li>Experiência em manutenção de computadores e redes</li>
+      </ul>
+    </div>
+
+    <!-- Projetos (sem quadrado extra) -->
+    <section>
+      <h2>Projetos</h2>
+      <div class="projects">
+        <div class="card">
+          <h3>Jogo da velha</h3>
+          <p>Projeto em Python que criei o jogo da velha.</p>
+        </div>
+        <div class="card">
+          <h3>Chatbot</h3>
+          <p>Projeto chatbot que dá dicas de saúde para usuários.</p>
+        </div>
+        <div class="card">
+          <h3>Banco</h3>
+          <p>Recriei um banco com todas opções possíveis.</p>
+        </div>
+        <div class="card">
+          <h3>Outros Projetos</h3>
+          <p>Confira mais no meu GitHub.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Habilidades -->
+    <div class="section-box">
+      <h2>Habilidades Técnicas</h2>
+      <ul>
+        <li><strong>Linguagens:</strong> Python, HTML, CSS</li>
+        <li><strong>Ferramentas:</strong> VS Code, Figma, Power BI</li>
+        <li><strong>Outros:</strong> Manutenção de computadores, suporte a usuários, redes</li>
+      </ul>
+    </div>
+
+    <!-- Contato (sem quadrado extra) -->
+    <section class="contact">
+      <h2>Contato</h2>
+      <div class="contact-buttons">
+        <a href="mailto:pedrocarvalhoturibio5@gmail.com"><i class="fa-solid fa-envelope"></i>Email</a>
+        <a href="https://wa.me/5563992485637"><i class="fa-brands fa-whatsapp"></i>WhatsApp</a>
+        <a href="https://github.com/Pedrocarvalhon"><i class="fa-brands fa-github"></i>GitHub</a>
+        <a href="https://www.linkedin.com/in/pedro-carvalho-undefined-78158337a/"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+      </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+      © <span id="year"></span> — Pedro Henrique Carvalho Turibio (@Pedrocarvalhon)
+    </footer>
+  </div>
+
+  <!-- Script para mostrar o ano atual automaticamente -->
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
